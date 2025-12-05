@@ -19,14 +19,15 @@
 }
 
 .grid {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .grid-item {
-  width: 30%;
-  padding: 5px;          /* remove spacing */
+  width: 20%;
+  padding: 5px;      
 }
 
 .grid-item img {
