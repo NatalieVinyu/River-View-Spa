@@ -14,6 +14,12 @@ hr {
   max-width: 100%;
 }
 
+@media (max-width: 768px) {
+  .logo {
+    width: 40%;
+  }
+}
+
 .img-height {
   height: 60vh;
   object-fit: cover;
@@ -56,7 +62,6 @@ hr {
 @media (max-width: 768px) {
   .title h1 {
     font-size: 30px;
-    padding: 20px 10px;
   }
 }
 
