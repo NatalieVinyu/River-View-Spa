@@ -2,7 +2,7 @@
 RiverView Spa
 
 ## Description
-This project involves redesigning an existing business website, [RiverviewSpa](RiverviewSpa.com), using the **Bootstrap framework**. The main goal is to enhance the website’s **user experience**, **aesthetics**, and **mobile responsiveness**, while demonstrating strong front-end development skills.
+This project involves redesigning an existing business website, [RiverviewSpa](https://riverviewspa.co.za/), using the **Bootstrap framework**. The main goal is to enhance the website’s **user experience**, **aesthetics**, and **mobile responsiveness**, while demonstrating strong front-end development skills.
 
 ## Tech Stack
 * HTML
