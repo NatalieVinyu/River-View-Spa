@@ -19,6 +19,27 @@ hr {
   object-fit: cover;
 }
 
+.nav-link {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #515441;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  width: 100%;
+}
+
 .title {
   padding: 40px 20px;
   text-align: center;
@@ -29,6 +50,12 @@ hr {
   font-weight: 700;
   letter-spacing: 3px;
   color: #515441;
+}
+
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 40px;
+  }
 }
 
 .bg-color {
